@@ -1,12 +1,3 @@
-###
-### Pantheon site .gitignore section
-###
-### Items below the "cut" line are still ignored on
-### the Pantheon site. Items above the "cut" line
-### are ignored in the GitHub repository, but committed
-### to the Pantheon repository.
-###
-
 # Ignore Drupal's file directory
 web/sites/default/files
 
