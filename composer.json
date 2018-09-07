@@ -18,11 +18,8 @@
         "drupal/config_installer": "^1.0",
         "drupal/console": "^1",
         "drupal/core": "^8",
-        "drupal/simple_block": "^1.0@beta",
         "drush/drush": "~8",
-        "rvtraveller/qs-composer-installer": "^1.1",
         "drush-ops/behat-drush-endpoint": "^0.0.5",
-        "pantheon-systems/quicksilver-pushback": "~1",
         "webflo/drupal-core-strict": "^8"
     },
     "require-dev": {
@@ -63,7 +60,6 @@
         ],
         "post-update-cmd": [
             "DrupalProject\\composer\\ScriptHandler::createRequiredFiles",
-            "find .circleci/scripts/pantheon/ -type f | xargs chmod 755",
             "find tests/scripts/ -type f | xargs chmod 755"
         ],
         "post-create-project-cmd": [
